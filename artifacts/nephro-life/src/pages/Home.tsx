@@ -59,7 +59,7 @@ export default function Home() {
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => window.scrollTo(0, 0)}>
             <NephroLogo className="h-8 w-8 text-primary" />
-            <span className="font-heading font-bold text-xl text-gray-900 tracking-tight">NephroLife</span>
+            <span className="font-heading font-bold text-xl text-gray-900 tracking-tight">DrManishSingla.com</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -688,7 +688,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <HeartPulse className="h-8 w-8 text-primary" />
-                <span className="font-heading font-bold text-2xl text-white tracking-tight">NephroLife</span>
+                <span className="font-heading font-bold text-2xl text-white tracking-tight">DrManishSingla.com</span>
               </div>
               <p className="max-w-sm mb-6 leading-relaxed">
                 Compassionate, state-of-the-art nephrology care led by Dr. Manish Singla. Dedicated to protecting your kidney health for a better life.
@@ -739,7 +739,7 @@ export default function Home() {
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p>&copy; {new Date().getFullYear()} NephroLife Clinic. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} DrManishSingla.com. All rights reserved.</p>
             <div className="flex gap-6 text-sm">
               <button onClick={() => setLegalModal("privacy")} className="hover:text-white transition-colors">Privacy Policy</button>
               <button onClick={() => setLegalModal("terms")} className="hover:text-white transition-colors">Terms of Service</button>
