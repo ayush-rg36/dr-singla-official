@@ -1,9 +1,16 @@
-import { Phone, MapPin, Clock, Mail } from "lucide-react";
+import { Phone, MapPin, Clock, Mail, LucideIcon } from "lucide-react";
 
 const WHATSAPP_URL =
   "https://wa.me/919872325087?text=Hi%20Dr.%20Singla%2C%20I%20am%20your%20patient%20and%20would%20like%20to%20receive%20my%20CKD%20diet%20and%20fluid%20protocols%20on%20WhatsApp.";
 
-const cards = [
+interface Card {
+  icon: LucideIcon;
+  title: string;
+  content: string;
+  href: string | null;
+}
+
+const cards: Card[] = [
   {
     icon: Phone,
     title: "Emergency & Appointments",
