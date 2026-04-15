@@ -1,0 +1,73 @@
+You must rebuild the entire Dietary Guidelines section to perfectly match a provided multi-section prototype. You are authorized to overwrite the current dietary cards, but you MUST NOT touch any other sections (Hero, Videos, Footer, Routing).
+
+Global Aesthetic Constraints:
+
+Card Style: Premium medical blue (bg-[#127db3] or bg-blue-600), text-white, rounded-2xl, p-6, shadow.
+
+Badges: Standard badges use bg-white/20 px-3 py-1 rounded-full text-xs font-semibold inline-block mb-3.
+
+Grid Layout: All card grids must be grid-cols-1 md:grid-cols-2 gap-4.
+
+--- SECTION 1: FOODS YOU CAN EAT ---
+
+Header: Icon: Thumbs Up (text-green-500). Text: "Foods You CAN Eat" (text-green-700 font-bold text-xl).
+
+Grid (6 Cards):
+
+Card 1: Badge: "Carbohydrates". Title: "White Rice & Pasta". Text: "Lower in potassium and phosphorus than whole grains. Opt for white bread, white rice, and regular pasta as your carbohydrate base."
+
+Card 2: Badge: "Vegetables". Title: "Cauliflower & Cabbage". Text: "Low-potassium vegetables that are kidney-friendly. Can be eaten in generous portions. Leached vegetables further reduce potassium content."
+
+Card 3: Badge: "Fruits". Title: "Apples, Grapes & Berries". Text: "Low-potassium fruits that are safe to enjoy. Rich in antioxidants that help fight inflammation without stressing kidney function."
+
+Card 4: Badge: "Protein". Title: "Egg Whites". Text: "High-quality protein with minimal phosphorus compared to egg yolks. Excellent protein source for CKD patients on protein-restricted diets."
+
+Card 5: Badge: "Protein". Title: "Fish (in moderation)". Text: "Omega-3 rich fish like salmon or sardines (in controlled portions) help reduce inflammation and support cardiovascular health."
+
+Card 6: Badge: "Fats & Flavor". Title: "Olive Oil & Garlic". Text: "Kidney-friendly cooking fats with anti-inflammatory properties. Use herbs and garlic to add flavor without adding salt."
+
+--- SECTION 2: FOODS TO AVOID OR LIMIT ---
+
+Header: Icon: Stop/Ban (text-red-500). Text: "Foods to AVOID or Limit" (text-red-700 font-bold text-xl).
+
+Grid Constraints: These cards have a flex header for two badges. Left badge is bg-white/20. Right badge is text-xs font-bold (colored red or orange text).
+
+Grid (6 Cards):
+
+Card 1: Badges: "Sodium" (Left) / "High Risk" (Right, red text). Title: "High-Sodium Foods". Text: "Processed meats, canned soups, pickles, soy sauce, and fast food. Sodium causes fluid retention and raises blood pressure, accelerating kidney damage."
+
+Card 2: Badges: "Potassium" (Left) / "High Risk" (Right, red text). Title: "High-Potassium Foods". Text: "Bananas, oranges, potatoes, tomatoes, spinach, and dried fruits. Elevated potassium (hyperkalemia) is dangerous and can cause heart rhythm problems."
+
+Card 3: Badges: "Phosphorus" (Left) / "High Risk" (Right, red text). Title: "High-Phosphorus Foods". Text: "Dairy products, nuts, seeds, dark colas, processed cheese, and whole grains. High phosphorus weakens bones and harms blood vessels."
+
+Card 4: Badges: "Protein" (Left) / "Moderate Risk" (Right, orange text). Title: "Excess Protein". Text: "Red meat, large portions of chicken or fish. Too much protein creates waste products that failing kidneys cannot efficiently filter out."
+
+Card 5: Badges: "Beverages" (Left) / "High Risk" (Right, red text). Title: "Alcohol". Text: "Alcohol strains the kidneys, raises blood pressure, interacts with medications, and contributes to dehydration — all harmful for CKD patients."
+
+Card 6: Badges: "Supplements" (Left) / "Consult Doctor" (Right, red text). Title: "Herbal Supplements". Text: "Many herbal remedies are processed by the kidneys and can be toxic. Always consult your nephrologist before taking any supplements or alternative remedies."
+
+--- SECTION 3: DAILY LIMITS & KEY RULES ---
+
+Header: Icon: Alert Triangle (text-orange-500). Text: "Daily Limits & Key Rules" (text-orange-700 font-bold text-xl).
+
+Grid (4 Cards):
+
+Card 1: Icon: Droplet. Title: "Fluid Restriction". Badge: "500-1000 ml/day + urine output". Text: "In later stages of CKD and on dialysis, fluid intake is strictly restricted. Excess fluid causes swelling, shortness of breath, and heart complications. Measure and log your daily fluid intake including soups, fruits, and ice."
+
+Card 2: Icon: Apple. Title: "Sodium Limit". Badge: "Less than 2,000 mg/day". Text: "Do not add table salt to food. Avoid processed and packaged foods. Read food labels carefully. Use lemon juice, herbs, and vinegar as salt-free flavor enhancers."
+
+Card 3: Icon: Shield. Title: "Potassium Control". Badge: "2,000-3,000 mg/day (stage-dependent)". Text: "Leach vegetables by peeling, cutting small, soaking in water for 2+ hours, then boiling in fresh water and discarding. This process significantly reduces potassium content. Avoid potassium chloride salt substitutes — they are not safe for CKD."
+
+Card 4: Icon: Activity. Title: "Phosphorus Management". Badge: "800-1,000 mg/day". Text: "Take phosphate binders as prescribed by your doctor — they work best when taken with meals. Avoid foods with phosphate additives (check labels for 'phos'). Limit dairy to small controlled portions. Organic phosphorus from natural foods is less readily absorbed than additives."
+
+Wide Lifestyle Card: Below the 2x2 grid, create one full-width card (col-span-1 md:col-span-2) in the same blue styling. Title: "Additional Lifestyle Recommendations". Content: A 2-column checklist with checkmark icons:
+
+"Monitor blood pressure daily and keep it below 130/80 mmHg"
+
+"Maintain HbA1c below 7% if diabetic — diabetes is the leading cause of CKD"
+
+"Exercise moderately for 30 minutes most days — walking is ideal"
+
+"Avoid NSAIDs (ibuprofen, naproxen) — they are toxic to the kidneys"
+
+Generate the exact replacement code now.

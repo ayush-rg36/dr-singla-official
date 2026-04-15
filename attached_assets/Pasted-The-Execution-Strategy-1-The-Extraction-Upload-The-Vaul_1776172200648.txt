@@ -1,0 +1,38 @@
+The Execution Strategy
+1. The Extraction & Upload (The Vault)
+You need to extract those raw video files from the old WordPress site. Do not put them in Replit or GitHub. You will upload them to a dedicated YouTube channel for the clinic (mark them as "Unlisted" if he doesn't want them public). YouTube will compress them perfectly and handle all the server load.
+
+2. The "Lazy" Embed (The Code)
+In our React code, we will only use lightweight iframe embeds. On mobile, these look exactly like native videos, but they cost zero bandwidth until the patient actually clicks "play".
+
+Here is the exact Sandbox Prompt to build the Patient Reviews engine. Copy and paste this into Replit:
+
+CRITICAL SYSTEM DIRECTIVE: STRICT SANDBOX MODE
+
+I need you to build a new "Patient Reviews" section that handles video embeds, but you must operate under absolute constraints to protect the existing codebase.
+
+The Execution Rules:
+
+ZERO OVERRIDE POLICY: You are strictly forbidden from altering, refactoring, or deleting ANY existing state logic, routing, or UI components.
+
+COMPONENT ISOLATION: Build this new section as an entirely separate, standalone React component named PatientReviews.jsx.
+
+STYLE MATCHING: Use our hyper-minimalist, high-contrast Tailwind CSS aesthetic.
+
+INTEGRATION: Your only modification to the main file will be importing PatientReviews.jsx and placing it above the Footer/Contact section.
+
+The Content & Structure for PatientReviews.jsx:
+
+Header: "Patient Outcomes & Testimonials"
+
+Layout: Create a responsive grid (1 column on mobile, 2 columns on desktop) with gap-8.
+
+Video Cards: Create 2 sleek, minimalist cards. Inside each card:
+
+Embed a responsive YouTube video iframe (use standard aspect-video tailwind classes). Provide a placeholder YouTube URL for now (e.g., https://www.youtube.com/embed/dQw4w9WgXcQ).
+
+Under the video, add a small, italicized text quote summarizing the patient's condition (e.g., "Successful treatment for chronic kidney disease after 3 years.").
+
+Text Review Cards: Create 2 standard text review cards with a 5-star SVG icon and a short paragraph of text to balance the section visually.
+
+Generate the PatientReviews.jsx file and show me the exact import line for the main file.

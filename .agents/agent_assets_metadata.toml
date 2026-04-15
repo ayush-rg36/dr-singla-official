@@ -1,0 +1,8 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "B_0mZxlePnXySeQeGvYWA"
+uri = "file://artifacts/nephro-life/public/dr-manish.png"
+type = "image"
+title = "Indian male doctor white coat"
