@@ -67,7 +67,7 @@ export default function Home() {
             <button onClick={() => scrollToSection("about")} className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">About</button>
             <button onClick={() => scrollToSection("services")} className="text-sm font-medium text-gray-600 hover:text-primary transition-colors">Services</button>
             <a
-              href="https://wa.me/919872294495?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
+              href="https://wa.me/919815498222?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => window.trackWhatsAppLead()}
@@ -97,7 +97,7 @@ export default function Home() {
             <button onClick={() => scrollToSection("about")} className="text-left py-2 font-medium text-gray-800">About</button>
             <button onClick={() => scrollToSection("services")} className="text-left py-2 font-medium text-gray-800">Services</button>
             <a
-              href="https://wa.me/919872294495?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
+              href="https://wa.me/919815498222?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => window.trackWhatsAppLead()}
@@ -278,7 +278,7 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                 <a
-                  href="https://wa.me/919872294495?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
+                  href="https://wa.me/919815498222?text=Hi%20Dr.%20Singla%2C%20I%20just%20visited%20your%20clinical%20portal.%20Please%20send%20me%20the%20Kidney%20Care%20Protocols%20and%20Dietary%20Guidelines%20discussed%20on%20the%20site"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => window.trackWhatsAppLead()}
