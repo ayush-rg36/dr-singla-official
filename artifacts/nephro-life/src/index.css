@@ -255,3 +255,8 @@
     inset: -1px;
   }
 }
+
+/* ElevenLabs ConvAI widget — placement="bottom-left" handles position natively */
+elevenlabs-convai {
+  z-index: 50;
+}

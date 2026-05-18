@@ -24,6 +24,7 @@ function App() {
           <Router />
         </WouterRouter>
         <Toaster />
+        <elevenlabs-convai agent-id="agent_9101krwvbf79fwp8nh5p1ckestzb" placement="bottom-left" />
       </TooltipProvider>
     </QueryClientProvider>
   );
