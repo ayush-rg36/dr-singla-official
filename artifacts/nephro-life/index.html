@@ -123,7 +123,31 @@
     <script type="module" src="/src/main.tsx"></script>
 
     <!-- ElevenLabs Convai Widget -->
-    <elevenlabs-convai agent-id="agent_0201m2mh7185fqmv1c88whbdevxq" placement="bottom-left"></elevenlabs-convai>
+    <style>
+      /* tall clip box (not short) — gives expand-on-click panel room to
+         grow upward while permanently clipping the "Powered by" strip,
+         which sits below the widget's own buttons. Mirrored to the left
+         since this widget is placement="bottom-left". */
+      .convai-wrap {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 400px;
+        height: 90vh;
+        overflow: hidden;
+        z-index: 9999;
+        pointer-events: none;
+      }
+      .convai-wrap elevenlabs-convai {
+        pointer-events: auto;
+        position: absolute;
+        bottom: -34px;
+        left: 0;
+      }
+    </style>
+    <div class="convai-wrap">
+      <elevenlabs-convai agent-id="agent_0201m2mh7185fqmv1c88whbdevxq" placement="bottom-left"></elevenlabs-convai>
+    </div>
     <script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
   </body>
 </html>
